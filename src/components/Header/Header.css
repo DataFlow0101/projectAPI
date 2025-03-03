@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right{
+    gap: 40px;
+}
+.home-btn{
+    width: 50px;
+    height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color: #c52d2f;
+    border: none;
+
+}
+.imgjk{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+}
+.nav-right{
+    margin-left: 600px;
+}

@@ -1,0 +1,14 @@
+.imghut{
+    width: 200px;
+}
+.about{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.imghut{
+    border-radius: 8px;
+}

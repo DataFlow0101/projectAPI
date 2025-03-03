@@ -1,0 +1,26 @@
+.Block1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.Block1 p {
+    color: white;
+}
+.Block1 h1{
+    color: white;
+}
+.button1{
+width: 88px;
+height: 36px;
+background-color: rgb(16, 165, 40);
+border-radius: 8px;
+color: white;
+}
+.button2{
+  width: 117px;
+  height: 36px;
+  background-color: rgb(233, 183, 64);
+  border-radius: 8px;
+  color: white;
+}

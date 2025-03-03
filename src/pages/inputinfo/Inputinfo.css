@@ -1,0 +1,15 @@
+.cocktail-grid{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.imghjk{
+    border-radius: 8px;
+    width: 400px;
+}
+.name-img{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

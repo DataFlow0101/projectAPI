@@ -1,0 +1,21 @@
+.cikl{
+    width: 1270px;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.input2{
+    width: 350px;
+    height: 35px;
+}
+.center{
+    text-align: center;
+    margin-top: 40px;
+}
+.pfkl{
+    display: flex;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+}
