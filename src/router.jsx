@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Inputinfo from "./pages/inputinfo/Inputinfo";
 import InfoName from "./pages/InfoName/infoName";
+import CoctailInfo from "./pages/CoctailInfo/CoctailInfo";
 
 export const myRouter = createBrowserRouter([
     {
@@ -13,17 +14,17 @@ export const myRouter = createBrowserRouter([
                 path: "",
                 element: <Home />,
             },
-            // {
-            //     path: "about",
-            //     element: <About />,
-            // },
             {
                 path: "inputinfo/:letter",
                 element: <Inputinfo/>,
             },
             {
-                path: "InfoName/:id",
+                path: "infoName/:id",
                 element: <InfoName/>,
+            },
+            {
+                path: "coctailInfo/:id",
+                element: <CoctailInfo/>,
             },
         ],
     },

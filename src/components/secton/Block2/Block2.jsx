@@ -28,6 +28,7 @@ const Block2 = () => {
         <div className='pfkl'>
             <p>Total Drinks: 636</p>
             <p>Total Ingredients: 489</p>
+            <p></p>
             <p>Drink Images: 636(93cc)</p>
         </div>
         </div>

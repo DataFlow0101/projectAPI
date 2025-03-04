@@ -5,6 +5,7 @@ import './Home.css'
 import Block1 from '../../components/secton/Block1/Block1';
 import Block2 from '../../components/secton/Block2/Block2';
 import Block3 from '../../components/secton/Block3/Block3';
+import { Link } from 'react-router';
 
 const Home = () => { 
     const dispatch = useDispatch();
@@ -26,11 +27,13 @@ const Home = () => {
                 data.map((drink) => (
                     <div key={drink.idDrink}>
                         {drink.strDrinkThumb && (
+                            <Link to={`coctailInfo/${drink.idDrink}`}>
                             <img
                                 src={drink.strDrinkThumb}
                                 alt={drink.strDrink}
                                 className="imghut"
-                            />
+                                />
+                                </Link>
                         )}
 
                     </div>
